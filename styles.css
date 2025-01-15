@@ -1,0 +1,53 @@
+* {
+	box-sizing: content-box;
+	font-family: Roboto, sans-serif;
+}
+
+/* Center everything in the body */
+body {
+	background-color: #e3e3e3;
+	display: flex; /* Enable Flexbox */
+	flex-direction: column; /* Stack sections vertically */
+	align-items: center; /* Center horizontally */
+	justify-content: flex-start; /* center to center vertically */
+	height: 100vh; /* Set the body height to full viewport */
+	margin: 0;
+	padding: 15vh;
+}
+
+/* Centering icons within sections */
+section {
+	width: 100%; /* Full width of the container */
+	display: flex; /* Enable Flexbox */
+	flex-wrap: wrap; /* Allow icons to wrap to the next line */
+	justify-content: center; /* Center icons horizontally */
+	align-items: center; /* Center icons vertically within the section */
+	margin: 10px 0; /* Add spacing between sections */
+}
+
+#folders {
+	width: 60%;
+}
+
+.webapp-icon {
+	width: 80px;
+	height: auto; /* Maintain aspect ratio */
+	margin: 10px; /* Add space between icons */
+	transition: transform 0.3s ease; /* Add a smooth hover effect */
+}
+
+ul {
+	list-style: none;
+}
+
+/* Style for all links */
+a {
+	text-decoration: none; /* Removes underline */
+	color: inherit; /* Optional: Makes the link color the same as surrounding text */
+}
+
+/* Optional: Add hover effect for links */
+a:hover {
+	text-decoration: none; /* Ensure underline doesn't appear on hover */
+	color: #007bff; /* Change link color on hover if desired */
+}
