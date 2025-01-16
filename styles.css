@@ -18,7 +18,8 @@ body {
 /* Centering icons within sections */
 section {
 	width: 100%; /* Full width of the container */
-	display: flex; /* Enable Flexbox */
+	min-width: 300px;
+	display: flex;
 	flex-wrap: wrap; /* Allow icons to wrap to the next line */
 	justify-content: center; /* Center icons horizontally */
 	align-items: center; /* Center icons vertically within the section */
@@ -26,7 +27,7 @@ section {
 }
 
 #folders {
-	width: 400px;
+	max-width: 400px;
 }
 
 .webapp-icon {
